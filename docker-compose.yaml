@@ -9,6 +9,6 @@ services:
     environment:
       NODE_ENV: production
     volumes:
-      - .:/app
+      - .:/app:Z
       - /app/node_modules
     command: ["npm", "run", "dev"]
